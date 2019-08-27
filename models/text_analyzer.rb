@@ -47,4 +47,5 @@ class TextAnalyzer
   
 end
 
-most_used_letter("Hi my name is Nikki iiiiii")
+text = TextAnalyzer.new("Hi my name is Nikki")
+text.most_used_letter
