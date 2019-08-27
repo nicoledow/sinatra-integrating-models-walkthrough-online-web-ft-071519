@@ -41,11 +41,9 @@ class TextAnalyzer
     end
  
     biggest
-    binding.pry
+
   end 
   
   
 end
 
-text = TextAnalyzer.new("Hi my name is Nikki")
-text.most_used_letter
